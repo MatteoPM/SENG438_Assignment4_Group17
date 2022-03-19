@@ -1,0 +1,817 @@
+{
+  "id": "ee583c8b-a3ea-4431-967e-6f866c8cccc7",
+  "version": "2.0",
+  "name": "test",
+  "url": "sportchek.ca",
+  "tests": [{
+    "id": "2560daf0-eb2b-460b-a8a9-1f011f479018",
+    "name": "invalid_login",
+    "commands": [{
+      "id": "db6321d8-516f-4684-86d5-d9c1cf97a566",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a60da12f-09fb-41c1-9c39-55b9e0a98dbc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c9279c0-dd00-4f65-84f9-79be7e3f60ef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8052bff3-1576-4169-ba54-a2eecfe17a9b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1694f36b-2251-4615-afd8-5c8a97463098",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-header__account-button",
+      "targets": [
+        ["css=.page-header__account-button", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dac4bd7-76ba-42c6-b8a5-ec6acbef6cb1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-header__account-button",
+      "targets": [
+        ["css=.page-header__account-button", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d01750b3-913d-461c-a8b7-aee40726e1a5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40fe5a2f-7872-4740-ac90-8fe9642d3b9a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09dc3fea-4c21-468c-851c-91804c1ae8a4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=FREE 1-HOUR*CURBSIDE PICK UP",
+      "targets": [
+        ["linkText=FREE 1-HOUR*CURBSIDE PICK UP", "linkText"],
+        ["css=.container-sth > a:nth-child(2)", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.sportchek.ca/campaigns/trip-assurance.html?cid=Homepage-PencilBannerA')]", "xpath:href"],
+        ["xpath=//main/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'FREE 1-HOUR*CURBSIDE PICK UP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f900ea6a-9658-4772-9e87-55450d67a218",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=FREE 1-HOUR*CURBSIDE PICK UP",
+      "targets": [
+        ["linkText=FREE 1-HOUR*CURBSIDE PICK UP", "linkText"],
+        ["css=.container-sth > a:nth-child(2)", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.sportchek.ca/campaigns/trip-assurance.html?cid=Homepage-PencilBannerA')]", "xpath:href"],
+        ["xpath=//main/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'FREE 1-HOUR*CURBSIDE PICK UP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a43b766-9894-47da-b6c8-14d09294ac21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-header__account-button",
+      "targets": [
+        ["css=.page-header__account-button", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cb052da-7adf-4fb8-89e8-bc3054b625e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-account-icon__dropdown-item-sign-in",
+      "targets": [
+        ["css=.header-account-icon__dropdown-item-sign-in", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cdf059d-fb85-495b-949f-8d90e645efea",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gigya-login-form .gigya-input-text",
+      "targets": [
+        ["css=#gigya-login-form .gigya-input-text", "css:finder"],
+        ["xpath=(//input[@name='username'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "187ba051-5f98-45bf-b5a7-634527c2339f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-valid",
+      "targets": [
+        ["css=.gigya-valid", "css:finder"],
+        ["xpath=(//input[@name='username'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "wrong@email.com"
+    }, {
+      "id": "b5d92812-0a1b-46b5-951e-4c2c158339aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [
+        ["css=.gigya-input-password:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='password'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f11c6eb2-a0f5-4d65-97fc-aed1c432131b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [
+        ["css=.gigya-input-password:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='password'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "wrong password"
+    }, {
+      "id": "95af4466-b6d4-4316-b55f-45ae4ded2b7b",
+      "comment": "",
+      "command": "assertValue",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [],
+      "value": "wrong password"
+    }, {
+      "id": "1efe178b-9733-420e-8a01-f54a8e1ba2fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gigya-login-form .gigya-composite-control-submit > .gigya-input-submit",
+      "targets": [
+        ["css=#gigya-login-form .gigya-composite-control-submit > .gigya-input-submit", "css:finder"],
+        ["xpath=//input[@value='SIGN IN']", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2b748845-1215-44b7-a2e1-283d78d8d5e3",
+    "name": "test_searchbar",
+    "commands": [{
+      "id": "c2f98e75-2591-47ca-b167-aa890626937d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c10979be-48c4-4a60-ac88-2b8db3cffb1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33110b47-f565-4726-8bac-da2b5f7c6387",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5980330c-b170-4fca-b8e3-23ceead4b66f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "shoes"
+    }, {
+      "id": "b7c4ca55-2a83-4ff4-b574-ef08040bfd25",
+      "comment": "",
+      "command": "assertValue",
+      "target": "css=.header-search__input",
+      "targets": [],
+      "value": "shoes"
+    }, {
+      "id": "4309d1a8-4b65-463d-b499-5e9e95f970b4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "be51b4bc-0b05-418a-8d69-7e2668272076",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Men's Athletic Shoes & Cleats",
+      "targets": [
+        ["linkText=Men's Athletic Shoes & Cleats", "linkText"],
+        ["css=.product-category-tile__item:nth-child(2) > .product-category-tile__link", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'shoes/mens-athletic-shoes-cleats.html')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00f04a51-4c55-4a9b-ac59-5eceb36e776b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Men's Athletic Shoes & Cleats",
+      "targets": [
+        ["linkText=Men's Athletic Shoes & Cleats", "linkText"],
+        ["css=.product-category-tile__item:nth-child(2) > .product-category-tile__link", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[3]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'shoes/mens-athletic-shoes-cleats.html')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b3662ff-96d5-436d-bed1-148a31907fb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-category-tile__item:nth-child(2) .product-category-tile__name",
+      "targets": [
+        ["css=.product-category-tile__item:nth-child(2) .product-category-tile__name", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[3]/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1018b252-3cfb-4fb1-aed2-7d969f2f121d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-toggle",
+      "targets": [
+        ["css=.menu-toggle", "css:finder"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Shop Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aa8c8b7-d3b3-4c86-82e9-42cda78b0f36",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=headerPickupStoreTitle",
+      "targets": [
+        ["id=headerPickupStoreTitle", "id"],
+        ["css=#headerPickupStoreTitle", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreTitle']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Your Store:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e2365da6-92d5-44ab-b52e-9695ac0d0aca",
+    "name": "valid_login",
+    "commands": [{
+      "id": "b159bba6-c0bb-4d2e-b092-c29f072dcecd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e261bf20-da99-49b6-8e0a-6c9f38d3337b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5713e953-896b-4809-82b5-bdbbc1714318",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Brand",
+      "targets": [
+        ["linkText=Brand", "linkText"],
+        ["css=.page-nav__item:nth-child(11) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'brands')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brand')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1f84325-d533-44de-bc3e-0ff090455cc1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Brand",
+      "targets": [
+        ["linkText=Brand", "linkText"],
+        ["css=.page-nav__item:nth-child(11) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'brands')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brand')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88e66bb3-0047-437d-b57a-8e907765e8c7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Wellness",
+      "targets": [
+        ["linkText=Wellness", "linkText"],
+        ["css=.page-nav__item:nth-child(10) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/wellness')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wellness')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecb728f6-e5c1-40e0-b8e3-5406b0eb924b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Wellness",
+      "targets": [
+        ["linkText=Wellness", "linkText"],
+        ["css=.page-nav__item:nth-child(10) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/wellness')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wellness')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69536025-c1ba-4c9e-bc39-c2415ca0a63e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Brand",
+      "targets": [
+        ["linkText=Brand", "linkText"],
+        ["css=.page-nav__item:nth-child(11) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'brands')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brand')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a6182e7-d771-4d0a-93ca-0331dfdfc57f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Brand",
+      "targets": [
+        ["linkText=Brand", "linkText"],
+        ["css=.page-nav__item:nth-child(11) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'brands')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Brand')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99ff5fa7-9ea5-4c58-a6b4-620c5e6f1dee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.enterprise-account__button_sign-in",
+      "targets": [
+        ["css=.enterprise-account__button_sign-in", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7246eb1e-bbd2-4f9b-8ecc-7d687486fd81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enterprise-account__button_sign-in",
+      "targets": [
+        ["css=.enterprise-account__button_sign-in", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c887f6c7-e33b-4a0f-b128-0984264ec430",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gigya-login-form .gigya-input-text",
+      "targets": [
+        ["css=#gigya-login-form .gigya-input-text", "css:finder"],
+        ["xpath=(//input[@name='username'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3302510-e9ef-441d-88d9-8e4f710050f6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-valid",
+      "targets": [
+        ["css=.gigya-valid", "css:finder"],
+        ["xpath=(//input[@name='username'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "correct@email.com"
+    }, {
+      "id": "647b643e-35ae-40cc-9b23-2344988d241c",
+      "comment": "",
+      "command": "assertValue",
+      "target": "css=.gigya-valid",
+      "targets": [],
+      "value": "correct@email.com"
+    }, {
+      "id": "ce859dc6-1aa9-4859-b37f-af3d2bc7caba",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gigya-login-form .gigya-composite-control-password",
+      "targets": [
+        ["css=#gigya-login-form .gigya-composite-control-password", "css:finder"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c8acd5a-1294-4506-902b-76a106e73181",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [
+        ["css=.gigya-input-password:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='password'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d085cd01-5db0-422b-bd38-857decc0cf68",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [
+        ["css=.gigya-input-password:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='password'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "09a63ad3-6d05-42a5-a6a2-9fb94a8cdce6",
+      "comment": "",
+      "command": "assertValue",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [],
+      "value": "password"
+    }]
+  }, {
+    "id": "2fd58ce5-84fb-4cb2-a96a-372df0fa82b5",
+    "name": "null_searchbar",
+    "commands": [{
+      "id": "2b26da72-c8f9-489d-896d-b08ae1b09039",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d45c68a-af6e-410a-95ab-811acb201a03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a467189a-6e59-4e9a-aad7-350c9d48f976",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2553bca3-072a-49e7-9896-bf482980a883",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.full-image__img > img",
+      "targets": [
+        ["css=.full-image__img > img", "css:finder"],
+        ["xpath=//img[@alt='Under Armour Presents: The Joy of Training. Shop Now.']", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div/div/a/span/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fa4e5d1-ee28-4ac4-bef4-32eef83a150d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-nav__item:nth-child(9) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(9) .main-menu__text", "css:finder"],
+        ["xpath=//li[9]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Jerseys & Fan Wear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe91abc2-96eb-4815-ba8c-e8c306345970",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-nav__item:nth-child(9) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(9) .main-menu__text", "css:finder"],
+        ["xpath=//li[9]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Jerseys & Fan Wear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "720e91e0-2536-4ad4-b289-49f13ae9000f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Jerseys & Fan Wear",
+      "targets": [
+        ["linkText=Jerseys & Fan Wear", "linkText"],
+        ["css=.page-nav__item:nth-child(9) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/fan-shop')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jerseys & Fan Wear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57381176-10a9-40ee-9712-19e006e29b43",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Jerseys & Fan Wear",
+      "targets": [
+        ["linkText=Jerseys & Fan Wear", "linkText"],
+        ["css=.page-nav__item:nth-child(9) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/fan-shop')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jerseys & Fan Wear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8b05679-a0fc-4250-ac5e-29e0f64df738",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c317d85-4c6e-4974-9172-d2ffe85a9160",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "752c5f95-f7a2-4062-8ed4-ff49599a940d",
+      "comment": "",
+      "command": "assert",
+      "target": "css=.header-search__input",
+      "targets": [],
+      "value": "null"
+    }]
+  }, {
+    "id": "4d25c6c1-939e-49dc-a8da-eb8bca322b6c",
+    "name": "Check empty cart",
+    "commands": [{
+      "id": "e975cb70-3a70-47b4-a14b-2592e4e2edcc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c39da7f-5419-4f5b-82b5-92354e3cb10b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1056x777",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53910a7e-a9ec-4799-be59-797c2dde217f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.header-cart__trigger", "css:finder"],
+        ["xpath=//a[contains(@href, 'shopping-cart.html')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "561518f3-304f-4c00-ac02-48a0bd4e5699",
+      "comment": "",
+      "command": "assert",
+      "target": "class=\"sc-product-list\"",
+      "targets": [],
+      "value": "null"
+    }]
+  },  {
+    "id": "800ac48c-94f6-447e-ae52-63203ab47455",
+    "name": "Adding to cart",
+    "commands": [{
+      "id": "5a7d3e61-9412-4ef3-acb5-bc7f45bd0361",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.sportchek.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02e1ddfc-1f11-4254-93c2-6f47554a9459",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1056x777",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac5e5a82-ec35-4a65-8f4c-923b777cb58e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hat"
+    }, {
+      "id": "ce628d98-db95-4440-bda3-73772a80cfa1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1501229b-6f70-4b34-9e5f-9446ce31956b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9dc11e5-0ecb-4c9a-b911-b679496f7cb5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,183)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cccde2b-fa8b-4a81-b50b-4e0b0bb9e00f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid__list-item:nth-child(1) .product-grid-image",
+      "targets": [
+        ["css=.product-grid__list-item:nth-child(1) .product-grid-image", "css:finder"],
+        ["xpath=//img[@alt=\"adidas Men's Prime Blue Dad Cap - Black/Black/Whiteblack/Black/White\"]", "xpath:img"],
+        ["xpath=//main[@id='main-content']/div/div[3]/div[2]/div/ul/li/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b051105f-4810-4dd9-831e-abbdc466c52e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,530)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c98d8b9d-09a7-46f7-b004-74c69443ccac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-cart > span",
+      "targets": [
+        ["css=.add-cart > span", "css:finder"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "042a9a1c-9ddf-4791-a0ce-8edce6f82b9d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.add-cart > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ed323bc-7271-4bd7-bd5b-791a9a112830",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,362)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccb59ff3-599c-43d5-84d2-43cdb816ca08",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add-cart",
+      "targets": [
+        ["css=.add-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "254d97c7-e5a0-4c00-a16d-7a5441e5c1c8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.add-cart",
+      "targets": [
+        ["css=.add-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='product-detail-form']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41ef73ba-66c0-4a44-aa72-0a91c18660b0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,92)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "65b5f522-0187-476a-aa99-4407492b838f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}
+
